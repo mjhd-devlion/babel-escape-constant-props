@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot arrow function 1`] = `
+"React.createElement(Foo, {
+  prop: () => true
+});"
+`;
+
+exports[`snapshot boolean 1`] = `
+"React.createElement(Foo, {
+  prop: true
+});"
+`;
+
+exports[`snapshot constant array 1`] = `
+"const _ref = [1, 2];
+React.createElement(Foo, {
+  prop: _ref
+});"
+`;
+
+exports[`snapshot constant array of constant objects 1`] = `
+"const _ref = [{
+  foo: 'bar'
+}, {
+  hoge: 'piyo'
+}];
+React.createElement(Foo, {
+  prop: _ref
+});"
+`;
+
+exports[`snapshot constant object contains array 1`] = `
+"const _ref = {
+  foo: [1, 2]
+};
+React.createElement(Foo, {
+  prop: _ref
+});"
+`;
+
+exports[`snapshot constant object contains array of array 1`] = `
+"const _ref = {
+  foo: [['foo', 'bar']]
+};
+React.createElement(Foo, {
+  prop: _ref
+});"
+`;
+
+exports[`snapshot constant object contains array of constant objects 1`] = `
+"const _ref = {
+  foo: [{
+    foo: 'bar'
+  }, {
+    hoge: 'piyo'
+  }]
+};
+React.createElement(Foo, {
+  prop: _ref
+});"
+`;
+
+exports[`snapshot constant object contains constant object 1`] = `
+"const _ref = {
+  foo: {
+    foo: 'bar'
+  }
+};
+React.createElement(Foo, {
+  prop: _ref
+});"
+`;
+
+exports[`snapshot constant object contains null 1`] = `
+"const _ref = {
+  foo: null
+};
+React.createElement(Foo, {
+  prop: _ref
+});"
+`;
+
+exports[`snapshot constant object contains number 1`] = `
+"const _ref = {
+  foo: 1
+};
+React.createElement(Foo, {
+  prop: _ref
+});"
+`;
+
+exports[`snapshot constant object contains string 1`] = `
+"const _ref = {
+  foo: 'bar'
+};
+React.createElement(Foo, {
+  prop: _ref
+});"
+`;
+
+exports[`snapshot function 1`] = `
+"React.createElement(Foo, {
+  prop: func()
+});"
+`;
+
+exports[`snapshot identifier 1`] = `
+"React.createElement(Foo, {
+  prop: hoge
+});"
+`;
+
+exports[`snapshot identifier as object's key 1`] = `
+"React.createElement(Foo, {
+  prop: {
+    [hoge]: 'bar'
+  }
+});"
+`;
+
+exports[`snapshot null 1`] = `
+"React.createElement(Foo, {
+  prop: null
+});"
+`;
+
+exports[`snapshot number 1`] = `
+"React.createElement(Foo, {
+  prop: 1
+});"
+`;
+
+exports[`snapshot object contains identifier 1`] = `
+"React.createElement(Foo, {
+  prop: {
+    foo: bar
+  }
+});"
+`;
+
+exports[`snapshot shorthanded boolean 1`] = `
+"React.createElement(Foo, {
+  prop: true
+});"
+`;
+
+exports[`snapshot string 1`] = `
+"React.createElement(Foo, {
+  prop: \\"bar\\"
+});"
+`;
